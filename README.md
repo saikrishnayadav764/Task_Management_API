@@ -1,3 +1,4 @@
+
 # Task Management API
 
 The Task Management API is a Node.js-based system designed to manage tasks efficiently. It offers functionalities to create, read, update, and delete tasks via a RESTful API.
@@ -61,7 +62,11 @@ For authenticated endpoints, include the Authorization token in the HTTP headers
 
 ## Usage
 
-The server starts at http://localhost:3000 by default. Once the server is running, you can access and test the defined API endpoints at this swagger documentation http://localhost:3000/api-docs/.
+The server starts at http://localhost:3000 by default. Once the server is running, you can access the defined API endpoints.
+
+## API Documentation
+
+Explore the API endpoints and test them using Swagger: [Swagger Documentation](http://localhost:3000/api-docs/)
 
 ## API Endpoints
 
@@ -99,4 +104,3 @@ User authentication is implemented using JSON Web Tokens (JWT). Upon successful 
 - MongoDB (with Mongoose)
 - JSON Web Tokens (JWT)
 - bcryptjs (for password hashing)
-
