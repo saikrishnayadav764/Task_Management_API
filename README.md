@@ -66,7 +66,7 @@ The server starts at http://localhost:3000 by default. Once the server is runnin
 
 ## API Documentation
 
-Explore the API endpoints and test them using Swagger: [Swagger Documentation](http://localhost:3000/api-docs/)
+Explore the API endpoints and test them using Swagger: [Swagger Documentation](https://task-management-api-dk0b.onrender.com/api-docs/)
 
 ## API Endpoints
 
