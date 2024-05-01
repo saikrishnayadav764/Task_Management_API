@@ -61,7 +61,7 @@ For authenticated endpoints, include the Authorization token in the HTTP headers
 
 ## Usage
 
-The server starts at http://localhost:3000 by default. Once the server is running, you can access the defined API endpoints.
+The server starts at http://localhost:3000 by default. Once the server is running, you can access and test the defined API endpoints at this swagger documentation http://localhost:3000/api-docs/.
 
 ## API Endpoints
 
