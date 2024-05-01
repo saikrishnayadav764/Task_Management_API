@@ -5,6 +5,7 @@ const connectDB = require("./config/db");
 const errorHandler = require("./utils/errorHandler");
 const authRoutes = require("./routes/authRoutes");
 const taskRoutes = require("./routes/taskRoutes");
+const cors = require("cors");
 const swagger = require('./swagger');
 
 
@@ -23,6 +24,12 @@ swagger(app);
 
 // Middleware
 app.use(express.json());
+
+app.use(cors({
+  origin: '*',
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: 'Content-Type,Authorization',
+}));
 
 // Routes
 app.use("/api/auth", authRoutes);
