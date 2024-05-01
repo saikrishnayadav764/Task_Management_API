@@ -1,7 +1,3 @@
-Here's the updated README file reflecting the provided file structure:
-
----
-
 # Task Management API
 
 The Task Management API is a Node.js-based system designed to manage tasks efficiently. It offers functionalities to create, read, update, and delete tasks via a RESTful API.
@@ -104,6 +100,3 @@ User authentication is implemented using JSON Web Tokens (JWT). Upon successful 
 - JSON Web Tokens (JWT)
 - bcryptjs (for password hashing)
 
----
-
-Feel free to customize this README file according to your project's specific details and requirements. Let me know if you need further assistance!
