@@ -58,7 +58,7 @@ To set up the application locally, follow these steps:
 
 ### Sending Authorization Token
 
-For authenticated endpoints, include the Authorization token in the HTTP headers of the request. It must be sent as a Bearer token.
+For authenticated endpoints, include the Authorization token in the HTTP headers of the request. It must be sent in a Authorization header.
 
 ## Usage
 
