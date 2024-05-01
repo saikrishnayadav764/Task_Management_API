@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3000/",
+        url: "https://task-management-api-dk0b.onrender.com/",
         description: "Live server",
       },
     ],
