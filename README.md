@@ -78,13 +78,17 @@ Explore the API endpoints and test them using Swagger: [Swagger Documentation](h
 ### Task Management
 
 - **POST /api/task**: Create a new task (requires authentication)
+- 
 Example:
+```json
 {
   "title": "Task 4",
   "description": "This task has all the information provided.",
   "status": "TODO",
   "assignee": "6631e1981bc0339035e835bd"
 }
+```
+
 
 - **GET /api/task**: Get all tasks (requires authentication)
 - **GET /api/task/:id**: Get a specific task by ID (requires authentication)
